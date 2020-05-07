@@ -1,0 +1,417 @@
+body{
+  background-color:#181818;
+  height:100vh;
+}
+
+#button{
+  position:relative;
+  cursor: pointer;
+  font-family:Tahoma;
+  font-weight: bold;
+  font-size:14px;
+  background-color:black;
+  color:white;
+  padding: 13px 6px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: fixed;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  z-index:1;
+}
+
+.sidenav img{
+  position:relative;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-right: 1vh;
+  margin-left: 1vh;
+  height:100vh;
+  width:99vw;
+
+}
+
+.radio img{
+  position:fixed;
+  height:6.5vh;
+  z-index:1;
+}
+
+
+
+
+
+
+.parallax{
+  background-image: url("image/background.png");
+  position:relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name{
+  position: absolute;
+  left:24vw;
+  top:10vh;
+}
+
+.a1{
+  position: absolute;
+  left:20vw;
+  top:8vh;
+}
+
+.a2{
+  position: absolute;
+  left:25vw;
+  top:14.5vh;
+}
+
+.on img{
+  position: absolute;
+  height:9vh;
+  left:30vw;
+  top:32vh;
+}
+
+.human img{
+  position: absolute;
+  height:60vh;
+  left:90vw;
+  top:3vh;
+}
+
+.camera img{
+  position: absolute;
+  height:70vh;
+  left:80vw;
+  top:25vh;
+}
+
+.p1{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:45vw;
+  font-size: 1.7em;
+  top:75vh;
+  left:5vw;
+}
+
+
+
+
+.parallax2{
+  background-image: url("image/backk.png");
+  height: 100vh;
+  position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drink img{
+  position: absolute;
+  height:94vh;
+  left:58vw;
+  margin-top:3vh;
+}
+
+.p2{
+  position:absolute;
+  color:#877868;
+  /* font-family: garamond; */
+  width:23vw;
+  font-size: 1.1em;
+  top:10vh;
+  left:10vw;
+}
+
+.p3{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:30vw;
+  font-size: 1.1em;
+  top:20vh;
+  left:20vw;
+}
+
+.p4{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:70vw;
+  font-weight: bold;
+  font-size: 1.1em;
+  top:50vh;
+  right:19vw;
+}
+
+.p5{
+  position:absolute;
+  color:#877868;
+  /* font-family: garamond; */
+  width:23vw;
+  font-size: 1.1em;
+  top:65vh;
+  left:20vw;
+}
+
+.p6{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:30vw;
+  font-size: 1.1em;
+  top:70vh;
+  left:20vw;
+}
+
+
+
+
+.parallax3{
+  background-image: url("image/backk1.png");
+  height: 100vh;
+  position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p7{
+  position:absolute;
+  color:#877868;
+  /* font-family: garamond; */
+  width:24vw;
+  font-size: 1.1em;
+  top:10vh;
+  left:15vw;
+}
+
+.p8{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:36vw;
+  font-size: 1.1em;
+  top:19vh;
+  left:15vw;
+}
+
+.p9{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:36vw;
+  font-size: 1.1em;
+  top:32vh;
+  left:15vw;
+}
+
+.p10{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:36vw;
+  font-size: 1.1em;
+  top:42vh;
+  left:15vw;
+}
+
+.p11{
+  line-height: 4.5vh;;
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:36vw;
+  font-size: 1.4em;
+  top:42vh;
+  left:70vw;
+}
+
+.p12{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  font-weight: bold;
+  width:36vw;
+  font-size: 1.1em;
+  top:75vh;
+  left:70vw;
+}
+
+
+
+.parallax4{
+  background-image: url("image/backk2.png");
+  height: 100vh;
+  position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.car img{
+  position: absolute;
+  height:96vh;
+  width:45vw;
+  right:54vw;
+  margin-top:2vh;
+}
+
+.p13{
+  position:absolute;
+  color:#877868;
+  /* font-family: garamond; */
+  width:24vw;
+  font-size: 1.1em;
+  top:5vh;
+  left:13vw;
+}
+
+.p14{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  font-size: 1.1em;
+  top:30vh;
+  left:35vw;
+}
+
+.p15{
+  line-height: 3vh;
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  font-size: 1.1em;
+  top:30vh;
+  left:60vw;
+}
+
+.p16{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:28vw;
+  font-size: 1.1em;
+  top:48vh;
+  left:60vw;
+}
+
+.p17{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  font-weight: bold;
+  width:36vw;
+  font-size: 1.1em;
+  top:92vh;
+  left:61vw;
+}
+
+
+
+
+.parallax5{
+  background-image: url("image/backk1.png");
+  height: 100vh;
+  position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p18{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  font-size: 1.1em;
+  top:10vh;
+  left:20vw;
+}
+
+.p19{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:35vw;
+  font-size: 1.1em;
+  top:20vh;
+  left:20vw;
+}
+
+.p20{
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:40vw;
+  font-size: 1.1em;
+  top:33vh;
+  left:40vw;
+}
+
+.p21{
+  line-height: 4vh;
+  position:absolute;
+  color:#A9A9A9;
+  /* font-family: garamond; */
+  width:36vw;
+  font-size: 1.4em;
+  top:45vh;
+  left:73vw;
+}
+
+.p22{
+  position:absolute;
+  color:#877868;
+  /* font-family: garamond; */
+  width:24vw;
+  font-size: 1.1em;
+  top:65vh;
+  left:20vw;
+}
+
+.last img{
+  position:absolute;
+  height:5vh;
+  top:93vh;
+  left:38vw;
+}
