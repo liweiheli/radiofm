@@ -4,14 +4,18 @@ body{
 }
 
 #button{
-  position:relative;
+  position:absolute;
+  top:70.2vh;
+  left:72.85vw;
+  z-index:999;
   cursor: pointer;
   font-family:Tahoma;
   font-weight: bold;
   font-size:14px;
-  background-color:black;
   color:white;
-  padding: 13px 6px;
+  border-radius: 150px;
+  padding:29px;
+  background-color:
 }
 
 .sidenav {
@@ -34,7 +38,6 @@ body{
   color: #818181;
   display: block;
   transition: 0.3s;
-
 }
 
 .sidenav a:hover{

@@ -7,23 +7,20 @@
 
 <body>
 
-  <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <img src="image/inside.png">
+    <button id="button">AM</button>
+    </div>
+
     <!-- <audio id="myAudio" src="http://www.sousound.com/music/healing/healing_01.mp3" preload="auto">
     </audio>
     <a onClick="togglePlay()">Click here to hear.</a> -->
 
-    <div>
-  <button id="button">Play</button>
-</div>
 
-<audio id="player">
-  <source src="http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_28072120&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3" preload="auto">
-</audio>
-
-
-  </div>
+      <audio id="player">
+        <source src="image/music1.m4a" preload="auto">
+      </audio>
   <span class="radio" onclick="openNav()"><img src="image/radio.png"></span>
 
 
@@ -208,10 +205,10 @@ var audio = document.getElementById("player");
 button.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
-    button.innerHTML = "Pause";
+    button.innerHTML = "FM";
   } else {
     audio.pause();
-    button.innerHTML = "Play";
+    button.innerHTML = "AM";
   }
 });
 </script>
